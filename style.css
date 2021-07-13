@@ -1,0 +1,42 @@
+#mybody{
+    background-color:sienna!important;
+    border: rgba(0, 255, 119, 0.947) 30px !important;
+    border-style:ridge !important;
+}
+#hone{
+    color: cornflowerblue !important;
+    font-size:1cm !important;
+    font-weight:bold !important;
+    border-radius: 10px !important;
+}
+#hthree{
+    color: darkgoldenrod !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
+#hfour{
+    color: slateblue !important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+}
+hr{
+    background-color: springgreen !important;
+    height:3px !important;
+}
+#btag{
+    color:red !important;
+}
+#hfive{
+    font-size: 15px !important;
+    color: darkmagenta !important;
+}
+#speech{
+    width: 500px !important;
+}
+#camera{
+    width: 500px !important;
+}
+button{
+    border-radius: 10px !important;
+}

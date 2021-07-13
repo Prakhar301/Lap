@@ -1,0 +1,53 @@
+#result{
+    border:ridge 10px crimson !important;
+    width: 400px !important;
+    height: 300px !important;
+}
+#camera{
+    border:ridge 10px crimson !important;
+    width: 400px !important;
+    height: 300px !important;
+}
+#mybody{
+    background-color:sienna!important;
+    border: rgba(0, 255, 119, 0.947) 30px !important;
+    border-style:ridge !important;
+}
+#hone{
+    color: cornflowerblue !important;
+    font-size:1cm !important;
+    border-radius: 10px !important;
+    font-weight:bold !important;
+}
+#hthree{
+    color: darkgoldenrod !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+}
+#hfour{
+    color: slateblue !important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+}
+.hfour{
+    color: slateblue !important;
+    font-weight: 400 !important;
+    border-radius: 10px !important;
+}
+#btag{
+    color:red !important;
+}
+#hfive{
+    font-size: 15px !important;
+    color: darkmagenta !important;
+}
+#but{
+    width: 500px !important;
+}
+#back{
+    width: 100ex;
+}
+button{
+    border-radius: 10px !important;
+}

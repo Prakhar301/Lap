@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+        <title>Camera</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link href="speech.css" rel="stylesheet">
+        <script src="speech.js"></script>
+    </head>
+    <body id="mybody">
+        <div class="container">
+            <center>
+                <h1 class="btn btn-warning" id="hone">Speech to text App</h1>
+                <br>
+                <h3 class="btn btn-danger" id="hthree">Convert speech into text then converts text into speech</h3>
+                <br><br>
+                <label class="btn btn-success form-control" id="lab">Say anything after click the start button</label>
+                <br><br>
+                <textarea id="text" placeholder="This is the speech into text" readonly="true"></textarea>
+                <br><br>
+                <button onclick="start()" id="but" class="btn btn-primary">Start speech</button>
+                <br><br>
+                <button onclick="back()" id="back" class="btn btn-info">Back to Home Page</button>
+            </center>
+        </div>
+    </body>
+</html>

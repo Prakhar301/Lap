@@ -1,0 +1,31 @@
+    <html lang="en">
+        <head>
+            <title>Camera</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+            <link href="style.css" rel="stylesheet">
+            <script src="main.js"></script>
+        </head>
+    <body id="mybody">
+        <div class="container">
+            <center>
+                <h1 class="btn btn-success" id="hone">Camera App</h1>
+                <br>
+                <h3 class="btn btn-primary" id="hthree">Select what you want to do</h3>
+                <br>
+                <div id="hfour">
+                    <h3 class="btn btn-warning" >You can choose-</h3>
+                    <hr>
+                    <button class="form-control btn btn-success" id="speech" onclick="Speech()">Speech to Text</button>
+                    <hr>
+                    <button class="form-control btn btn-success" id="camera" onclick="camera()">Take Selfie</button>
+                    <hr>
+                </div>
+                <h5 id="hfive"><b id="btag">NOTE:</b>Click on the button to go to the next screen</h5>
+            </center>
+        </div>
+    </body>
+</html>
